@@ -3,5 +3,6 @@ while ( x > 1 ) { x = x - 1 ; }
 do { x = y / 2 ; } while ( x < 100 ) ; 
 for ( int will : umoja ) { will = will * 100 } ;
 return passing ;
+for ( will > umoja ) { will  = will + 1; } 
 { float will = 0 ; }
-switch ( will == umoja ) { case yes : grade = passing ; case no : grade = stillpass; } 
+switch ( will == umoja ) { case yes : grade = passing; break; case no : grade = stillpass; break; } 
