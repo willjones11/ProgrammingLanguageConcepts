@@ -12,15 +12,6 @@ following type of statements:
 • if  
 • assignment 
 • return 
- 
-Imagine this programming language also includes the following rules: 
- 
-<program>  VOID MAIN ’(‘ ’)’ <block> 
-<block>  ‘{‘ { <statement> ; } ‘}’ 
- 
-*** Code should be able to detect syntax and lexical errors. You may choose the syntactical 
-structure of each statement, but they must be that of another programming language that you 
-specify in the comments and in a word doc where you list the grammar rules of your language.
 */
 import java.io.FileReader;
 import java.io.File;
