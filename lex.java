@@ -1,5 +1,27 @@
-package lex;
-
+/*
+In this problem you will be designing code that should be able to take in a file that is analyzed 
+for lexical and syntactical correctness. This programming language should allow for the 
+following type of statements:  
+  
+• switch  
+• foreach 
+• for  
+• while 
+• do-while 
+• block  
+• if  
+• assignment 
+• return 
+ 
+Imagine this programming language also includes the following rules: 
+ 
+<program>  VOID MAIN ’(‘ ’)’ <block> 
+<block>  ‘{‘ { <statement> ; } ‘}’ 
+ 
+*** Code should be able to detect syntax and lexical errors. You may choose the syntactical 
+structure of each statement, but they must be that of another programming language that you 
+specify in the comments and in a word doc where you list the grammar rules of your language.
+*/
 import java.io.FileReader;
 import java.io.File;
 import java.io.FileWriter;
@@ -10,7 +32,7 @@ import java.io.FileNotFoundException;
 public class lex {
 
     public static void main(String[] args) throws FileNotFoundException{
-        File plc = new File("D:\\documents\\PLCpractical.txt"); 
+        File plc = new File("PLCpractical.txt"); //change depending on file location 
         FileReader p = null;
             try{
                 p = new FileReader(plc);
