@@ -1,0 +1,69 @@
+Java do while-
+do{
+//code
+}while(condition);
+
+loop: code to be executed
+if condition is false goto out 
+goto loop 
+out:
+---------------------------------------------------
+Ada for-
+for i in start .. finish loop 
+--code 
+end loop;
+
+i= start 
+loop if i >= finish goto out
+--code 
+goto loop
+out:
+---------------------------------------------------
+C++ if then else-
+if(condition){
+//code
+}else{
+//code
+}
+
+if: condtion == false goto else
+code 
+goto out
+else:
+code
+out:
+-----------------------------------------------------
+C for-
+for( intialize; terminating condition; increment/decrement)
+{
+code here
+}
+
+for(;condition == false break out;)
+else continue loop
+
+----------------------------------------------------------
+C switch-
+switch(input1){
+case 1:
+//code 
+break;
+case 2:
+//code
+break;
+case 3:
+//break
+break;
+default:
+//code
+}
+
+
+Switch: Input input1
+if input1 == 1 then case1code
+else if input1 == 2 then case2code
+else if input1 == 3 then case3code
+else: goto default 
+default: defaultcode
+
+
