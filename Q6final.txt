@@ -1,0 +1,40 @@
+Python for: 
+  It is a iterator based loop. It iterates over tuples, dictionary, string, set, and lists. When it iterates over a sequence its called a traversal, this continues until it hits
+  the end of the sequence.
+  Ex. this code iterates over items and prints out each element in a list
+      item = [0, 1, 2, 3, 4, 5]
+      for i in items:
+        print(i)
+        
+        
+Java class:
+it is a user defined name to where the user can create objects of the class. It is a constructor for the objects and represents a set of properties or methods that can be common for the objects
+Ex. 
+
+public class Main{
+  int will = 101;
+  public static void main(String[] args){
+  Main yes = new Main();
+  System.out.println(yes, will);
+  }
+}
+
+
+C++ Function:
+Set of more than 1 statements that takes in input(s) and has some output(s). We use the functions for reusability to reduce the amount of code
+
+C Switch:
+is the combination of one or more cases and it replaces the if then else statement and compares the input variable to multiple different values. 
+Syntax:
+switch(input) {
+case 1:
+break;
+case 2:
+break;
+case 3:
+break;
+default:
+}
+
+Java Booleans Expressions:
+value that is TRUE or FALSE that is used for evaluating different expressions, they use boolean data type and used with mathmatical expressions, >, <, >=, <=, ==. !=.
